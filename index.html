@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khan Tanvir ferdous </title>
+    <link rel="icon" href="img/im1.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center" style="background-image:url('img/04-vector-backgrounds_547563823-removebg-preview.png'); background-repeat: no-repeat; background-position: right ;background-size:37% 65%;">
+<nav class="fixed top-0 left-0 h-full w-[15%] shadow-lg z-50">
+ <div class=" flex flex-col space-y-2 bg-green-300 h-full w-full z-50">
+<a    href="file:///C:/Users/admin/OneDrive/Desktop/portfolio/index.html"   class="text-gray-700  hover:text-blue-400  font-semibold font-serif text-2xl text-center pt-10 shadow-md">Home</a>
+<button   onclick="showdiv()"   class="text-gray-600  hover:text-blue-400 hover:bg-green-100 font-semibold font-serif text-2xl text-center shadow-md">Contacts</button>
+<button  onclick="showdiv1()"    class="text-gray-600   hover:text-blue-400 hover:bg-green-100 font-semibold font-serif text-2xl text-center shadow-md ">About Me</button>
+
+
+
+
+</div>
+</nav>
+
+<div id="div1" class="bg-green-200 h-96 w-1/2  flex ml-60 mt-24 mr-32 shadow-md flex-col">
+    <div class="z-50">
+<h3 class="text-gray-600 font-semibold font-serif text-2xl  pt-6 pl-3">Hi,I am Khan Tanvir Ferdous</h3>
+    </div>
+<p class=" z-10 font-semibold text-center mt-10 text-5xl text-gray-500"> An aspiring software developer
+</p>
+</div>
+
+<div id="div2" class="bg-green-200 h-96 w-1/2  flex ml-60 mt-24 mr-32 shadow-md flex-col">
+    <div class="z-50">
+<h3 class="text-gray-600 font-semibold font-serif text-2xl  pt-6 pl-3">Hi,I am Khan Tanvir Ferdous 2</h3>
+    </div>
+<p class=" z-10 font-semibold text-center mt-10 text-2xl text-gray-700">I am student of software engineering department at Daffodil International University.I have interest in web developing and machine learing. I am now studying in 5th semester.
+</p>
+</div>
+
+<div id="div3" class="bg-green-200 h-96 w-1/2  flex ml-60 mt-24 mr-32 shadow-md flex-col">
+    <div class="z-50">
+<h3 class="text-gray-600 font-semibold font-serif text-2xl  pt-6 pl-3">My Contacts</h3>
+    </div>
+<h1 class="text-gray-700  font-semibold font-serif text-2xl text-center pt-10 shadow-md">Phone: 01972195449</h1>
+<a    href="https://www.linkedin.com/in/khan-tanvir-ferdous-samrat-86a6a3269?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIGImz%2F0VSEytR5Ru2szQSQ%3D%3D"   class="text-gray-700  hover:text-blue-400  font-semibold font-serif text-2xl text-center pt-10 shadow-md">LinkedIn</a>
+<a    href="https://github.com/tanvir1811"   class="text-gray-700  hover:text-blue-400  font-semibold font-serif text-2xl text-center pt-10 shadow-md">Github</a>
+<a    href="https://www.facebook.com/share/198P75MFEQ/"   class="text-gray-700  hover:text-blue-400  font-semibold font-serif text-2xl text-center pt-10 shadow-md">Facebook</a>
+
+
+</div>
+
+
+
+<div  class="flex mb-40 mr-10">
+    <img src="img/WhatsApp_Image_2025-06-26_at_20.17.16_5219e01a-removebg-preview.png">
+</div>
+  
+<script>
+    
+    document.getElementById("div2").classList.add("hidden");
+    document.getElementById("div3").classList.add('hidden');
+ function showdiv(){
+    document.getElementById("div1").classList.add('hidden');
+    document.getElementById("div2").classList.add('hidden');
+    document.getElementById("div3").classList.remove('hidden');
+    
+      
+ }
+
+ function showdiv1(){
+    document.getElementById("div1").classList.add('hidden');
+    document.getElementById("div3").classList.add('hidden');
+    document.getElementById("div2").classList.remove('hidden');
+
+ }
+
+
+
+
+</script>
+  
+
+</body>
+</html>
